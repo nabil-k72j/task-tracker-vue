@@ -33,7 +33,7 @@
   })
 
 
-//Get Total
+//Get Total Balance
 const total = computed(() => {
   return transactions.value.reduce((acc, transaction) => {
     return acc + transaction.amount
